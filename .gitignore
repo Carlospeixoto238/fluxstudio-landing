@@ -1,0 +1,17 @@
+# Arquivos locais
+.DS_Store
+Thumbs.db
+
+# Logs e temporarios
+*.log
+*.tmp
+
+# Dependencias, caso a landing ganhe ferramenta no futuro
+node_modules/
+dist/
+build/
+
+# Videos brutos que nao entram no site publicado
+assets/videos/*.mp4
+!assets/videos/flux studio 2 1.mp4
+assets/videos-compressed/*.webm
