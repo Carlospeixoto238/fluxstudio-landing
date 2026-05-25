@@ -350,11 +350,26 @@ h2 {
 
 .video-tile video {
   display: block;
+  position: relative;
+  z-index: 1;
   width: 100%;
   aspect-ratio: 9 / 16;
   max-height: 560px;
   background: #101216;
   object-fit: cover;
+  pointer-events: auto;
+}
+
+.video-link {
+  display: inline-flex;
+  width: fit-content;
+  margin-top: 8px;
+  color: var(--green-dark);
+  font-weight: 900;
+}
+
+.video-link:hover {
+  text-decoration: underline;
 }
 
 .feature-video video {
